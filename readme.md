@@ -104,7 +104,7 @@ Default value: `false`
 ## Git LFS
 Your repository might increase over time, by adding Images, Audio, Video, Binaries, etc. 
 cloning and updating your content repostory can take a lot of time. If you are able to use
-Git LFS you probably should. Here is what the .gitattributes-File could look like:
+[Git LFS](https://git-lfs.github.com/) you probably should. Here is what the .gitattributes-File could look like:
 
 ```
 *.zip filter=lfs diff=lfs merge=lfs -text
